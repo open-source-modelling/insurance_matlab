@@ -35,6 +35,6 @@ StationaryBootstrap(data, 4, 9)
 For the calibration of the parameter, a really good source is Andrew J. Patton's implementation that can be found here: http://public.econ.duke.edu/~ap172/
 
 ## Example script
-Script IRS_Example.m contains an example of bootstraping the EURO denominated 6M interest-rate-swap rate. Data is obtained from the Italian stock exchange: https://www.teleborsa.it/Quotazioni/Tassi/Eurirs for date 12/11/2021 
+Script IRS_Example.m contains an example of bootstraping the EURO denominated 6M interest-rate-swap rate. Data is obtained from the Italian stock exchange: https://www.teleborsa.it/Quotazioni/Tassi/Eurirs for date 12/11/2021.
 
 
