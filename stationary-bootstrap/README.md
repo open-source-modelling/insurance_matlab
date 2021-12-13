@@ -1,4 +1,4 @@
-A block resampling method used for weakly-dependent stationary time-series data proposed in the 1994 paper by Politis & Romano.
+A block resampling method used for weakly-dependent stationary time-series data proposed in the 1994 paper by [Politis & Romano](https://www.researchgate.net/publication/254287565_The_Stationary_Bootstrap).
 
 ## Problem
 When using non-parametric tools to generate counterfactual scenarios or empirical distributions, bootstrapping methods proved to be a powerfull and easy-to-use tools. However the bootstrap in its simplest implementation assumes a time-series in which observations are independent. In a lot of applications this is not the case.
