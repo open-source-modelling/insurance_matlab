@@ -2,11 +2,11 @@ Popular algorithm for interpolating and extrapolating various curves such as bon
 
 ## Problem
 
-When analysing market expectations of future rates, a common approach is o look at fixed income instruments such as government or corporate bonds that mature in the future. In practice, the maturities observable (and liquid) on the market rarely cover all the maturities that are needed.
+When analysing market expectations of future rates, a common approach is to look at fixed income instruments such as government or corporate bonds that mature in the future. In practice, the maturities observable (and liquid) on the market rarely cover all the maturities that are needed.
 
 ## Solution
 
-This implementation takes as input the avalible market information, parameters describing the long-term behaviour of the curve and the data on desired (target) maturities for which the yields are needed.
+This implementation takes as input the available market information, parameters describing the long-term behaviour of the curve and the data on desired (target) maturities for which the yields are needed.
 
 ### Market information input
 
@@ -15,7 +15,7 @@ This implementation takes as input the avalible market information, parameters d
 
 ### SW Parameters
  - Ultimate froward rate ufr represents the rate to which the rate curve will converge as time increases.
- - Convergence speed parameter α controls the speed at which the curve converges towards the ufr parameter from the last liquid point (last data point avalible in the market information input)
+ - Convergence speed parameter α controls the speed at which the curve converges towards the ufr parameter from the last liquid point (last data point available in the market information input)
 
 ### Desired output
  
@@ -24,7 +24,7 @@ This implementation takes as input the avalible market information, parameters d
 Note that this implementation assumes that the yields were calculated on ZCB. This assumption can be easily relaxed in future releases.
 The implementation is split in two parts: 
 
-1. The avalible market data and the parameters are used to "clibrate" the algorithm. This returns a calibration vector that can be used to interpolate or extrapolate target maturities. This is done by calibrating the kernel functions. Look at the function `Calibrate_b()`
+1. The available market data and the parameters are used to "calibrate" the algorithm. This returns a calibration vector that can be used to interpolate or extrapolate target maturities. This is done by calibrating the kernel functions. Look at the function `Calibrate_b()`
 2. The yields for ZCB with targeted maturities are Interpolated/extrapolated. Look at the function `ExtrapolateSW()`
  
  The syntax in the functions tries to be consistent with EIOPA technical specifications.
@@ -43,6 +43,5 @@ alpha = 0.15; % convergence speed parameter
 b = SWCalibrate(r_Obs, T_Obs, ufr, alpha) % calibration vector calculation
 r_Target = SWExtrapolate(T_Target, T_Obs, b, ufr, alpha) % calculation of target yields
 r_Target % display target yields
-
 ```
 
