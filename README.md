@@ -6,7 +6,7 @@
 </br>
 
 <p align="center">
-    Collection of usefull models that actuaries can use to speed up their tasks. 
+    Collection of useful models that actuaries can use to speed up their tasks. 
 </p>
 
 ## Algorithms avalible
@@ -27,4 +27,4 @@
 | ---------------------- | ----------------------------------- | --------------------------------------------------------------------- |
 | TBD                    | TBD                                 | TBD                                                                   |
 
-<b> New suggestions for algorithms are wellcome </b>
+<b> New suggestions for algorithms are welcome </b>
