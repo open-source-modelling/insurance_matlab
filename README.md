@@ -25,6 +25,6 @@
 
 | Algorithm              | Source                              | Description                                                           |
 | ---------------------- | ----------------------------------- | --------------------------------------------------------------------- |
-| TBD                    | TBD                                 | TBD                                                                   |
+| Correlated BM          | TBD                                 | Simple script to generate correlated Brownian motion in 2 dimensions  |
 
 <b> New suggestions for algorithms are welcome </b>
