@@ -26,5 +26,6 @@
 | Algorithm              | Source                              | Description                                                           |
 | ---------------------- | ----------------------------------- | --------------------------------------------------------------------- |
 | Correlated BM          | TBD                                 | Simple script to generate correlated Brownian motion in 2 dimensions  |
+| G2++ with piec cons vol| TBD                                 | Calibration of a G2++ model with piecwise constant volatility         |
 
 <b> New suggestions for algorithms are welcome </b>
