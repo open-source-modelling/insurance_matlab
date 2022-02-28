@@ -26,6 +26,8 @@
 | Algorithm              | Source                              | Description                                                           |
 | ---------------------- | ----------------------------------- | --------------------------------------------------------------------- |
 | Correlated BM          | TBD                                 | Simple script to generate correlated Brownian motion in 2 dimensions  |
-| G2++ with piec cons vol| TBD                                 | Calibration of a G2++ model with piecwise constant volatility         |
+| G2++ with piece con. vo| TBD                                 | Calibration of a G2++ model with piecwise constant volatility         |
+| Two factor Vasicek     | TBD                                 | Two factor Vasicek model for interest rate modelling                   |
+
 
 <b> New suggestions for algorithms are welcome </b>
