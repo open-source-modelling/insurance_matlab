@@ -31,3 +31,6 @@
 
 
 <b> New suggestions for algorithms are welcome </b>
+
+
+<b>If anybody is interested in publishing an algorithm they implemented, or help with the project, contact us and we will make it happen </b>
