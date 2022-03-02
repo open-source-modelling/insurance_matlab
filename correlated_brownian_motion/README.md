@@ -30,6 +30,6 @@ The user is interested in generating samples from 2 Brownian motions with a corr
 
 mu = [1; 0];
 VarCovar = [1.5, 0.8; 0.8, 2];
-sampleSize = 5;
+sampleSize = 480;
 CorBrownian(mu, VarCovar, sampleSize)
 ```
