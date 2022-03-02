@@ -21,7 +21,7 @@
 [Technical-documentation]: https://www.eiopa.europa.eu/sites/default/files/risk_free_interest_rate/12092019-technical_documentation.pdf
 [stationary-bootstrap]: https://github.com/qnity/insurance_matlab/tree/main/stationary-bootstrap
 [Politis-Romano-1994]: https://www.researchgate.net/publication/254287565_The_Stationary_Bootstrap
-[Correlated Brownian]: https://github.com/qnity/insurance_python/tree/main/correlated_brownian_motion_python
+[Correlated Brownian]: https://github.com/qnity/insurance_matlab/tree/main/correlated_brownian_motion
 [Wiki BM]: https://en.wikipedia.org/wiki/Brownian_motion
 
 ## Algorithms planned
