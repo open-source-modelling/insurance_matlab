@@ -29,7 +29,8 @@
 | Algorithm              | Source                              | Description                                                           |
 | ---------------------- | ----------------------------------- | --------------------------------------------------------------------- |
 | G2++ with piece con. vo| TBD                                 | Calibration of a G2++ model with piecwise constant volatility         |
-| Two factor Vasicek     | TBD                                 | Two factor Vasicek model for interest rate modelling                   |
+| Two factor Vasicek     | TBD                                 | Two factor Vasicek model for interest rate modelling                  |
+| NSS algorithm          | TBD                                 | Nelson-Siegel-Svansson model for approximating the yield curve        |
 
 
 <b> New suggestions for algorithms are welcome </b>
