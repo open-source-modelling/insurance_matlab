@@ -15,7 +15,9 @@ function out = NSSMinimize(beta0, beta1, beta2, beta3, lambda0, lambda1, TimeVec
     % Returns:
     %     6 x 1 vector of parameters and factors, that best fit the observed yields (or an empty array if the optimization was not successfull).
     %
-    % LINK TO SOURCE
+    % https://docs.scipy.org/doc/scipy/reference/optimize.minimize-neldermead.html
+    % https://en.wikipedia.org/wiki/Nelder%E2%80%93Mead_method
+    
     fun = @(params)sum((NelsonSiegelSvansson(TimeVec, params(1), params(2), params(3), params(4), params(5), params(6))-YieldVec).^2); 
     [opt_sol,~,isSuccess] = fminsearch(fun, [beta0; beta1; beta2; beta3; lambda0; lambda1]);
     if (isSuccess)
