@@ -13,18 +13,18 @@
 
 | Algorithm              | Source                              | Description                                                           |
 | ---------------------- | ----------------------------------- | --------------------------------------------------------------------- |
-| [Smith&wilson]         | [Technical-documentation]           | Interpolation and extrapolation of missing interest rates             |
+| [Smith&Wilson]         | [Technical-documentation]           | Interpolation and extrapolation of missing interest rates             |
 | [Stationary-bootstrap] | [Politis-Romano-1994]               | Resampling procedure for weakly dependent stationary observations     |
-| [Correlated Brownian]  | [Wiki_Brownian_motion]              | Simple function to generate correlated Brownian motion in multiple dim|
-| [Nel_Si_Svansson]      | [BIS whitepaper]                    | Nelson-Siegel-Svansson model for approximating the yield curve        |
+| [Correlated Brownian]  | [Wiki Brownian motion]              | Simple function to generate correlated Brownian motion in multiple dim|
+| [Nel Si Svansson]      | [BIS whitepaper]                    | Nelson-Siegel-Svansson model for approximating the yield curve        |
 
-[Smith&wilson]: https://github.com/qnity/insurance_matlab/tree/main/smith%26wilson
+[Smith&Wilson]: https://github.com/qnity/insurance_matlab/tree/main/smith%26wilson
 [Technical-documentation]: https://www.eiopa.europa.eu/sites/default/files/risk_free_interest_rate/12092019-technical_documentation.pdf
 [Stationary-bootstrap]: https://github.com/qnity/insurance_matlab/tree/main/stationary-bootstrap
 [Politis-Romano-1994]: https://www.researchgate.net/publication/254287565_The_Stationary_Bootstrap
 [Correlated Brownian]: https://github.com/qnity/insurance_matlab/tree/main/correlated_brownian_motion
-[Wiki_Brownian_motion]: https://en.wikipedia.org/wiki/Brownian_motion
-[Nel_Si_Svansson]: https://github.com/qnity/insurance_matlab/tree/main/NelsonSiegelSvansson
+[Wiki Brownian motion]: https://en.wikipedia.org/wiki/Brownian_motion
+[Nel Si Svansson]: https://github.com/qnity/insurance_matlab/tree/main/NelsonSiegelSvansson
 [BIS whitepaper]: https://www.bis.org/publ/bppdf/bispap25l.pdf
 
 ## Algorithms planned
