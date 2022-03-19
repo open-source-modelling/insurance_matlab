@@ -16,6 +16,7 @@
 | [smith&wilson]         | [Technical-documentation]           | Interpolation and extrapolation of missing interest rates             |
 | [stationary-bootstrap] | [Politis-Romano-1994]               | Resampling procedure for weakly dependent stationary observations     |
 | [Correlated Brownian]  | [Wiki BM]                           | Simple function to generate correlated Brownian motion in multiple dim|
+| [Nel_Si_Svansson]      | [BIS whitepaper]                    | Nelson-Siegel-Svansson model for approximating the yield curve        |
 
 [smith&wilson]: https://github.com/qnity/insurance_matlab/tree/main/smith%26wilson
 [Technical-documentation]: https://www.eiopa.europa.eu/sites/default/files/risk_free_interest_rate/12092019-technical_documentation.pdf
@@ -23,6 +24,8 @@
 [Politis-Romano-1994]: https://www.researchgate.net/publication/254287565_The_Stationary_Bootstrap
 [Correlated Brownian]: https://github.com/qnity/insurance_matlab/tree/main/correlated_brownian_motion
 [Wiki BM]: https://en.wikipedia.org/wiki/Brownian_motion
+[Nel_Si_Svansson]: https://github.com/qnity/insurance_matlab/tree/main/NelsonSiegelSvansson
+[BIS whitepaper]: https://www.bis.org/publ/bppdf/bispap25l.pdf
 
 ## Algorithms planned
 
@@ -30,7 +33,6 @@
 | ---------------------- | ----------------------------------- | --------------------------------------------------------------------- |
 | G2++ with piece con. vo| TBD                                 | Calibration of a G2++ model with piecwise constant volatility         |
 | Two factor Vasicek     | TBD                                 | Two factor Vasicek model for interest rate modelling                  |
-| NSS algorithm          | TBD                                 | Nelson-Siegel-Svansson model for approximating the yield curve        |
 
 
 <b> New suggestions for algorithms are welcome </b>
