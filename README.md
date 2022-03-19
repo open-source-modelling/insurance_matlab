@@ -13,8 +13,8 @@
 
 | Algorithm              | Source                              | Description                                                           |
 | ---------------------- | ----------------------------------- | --------------------------------------------------------------------- |
-| [smith&wilson]         | [Technical-documentation]           | Interpolation and extrapolation of missing interest rates             |
-| [stationary-bootstrap] | [Politis-Romano-1994]               | Resampling procedure for weakly dependent stationary observations     |
+| [Smith&wilson]         | [Technical-documentation]           | Interpolation and extrapolation of missing interest rates             |
+| [Stationary-bootstrap] | [Politis-Romano-1994]               | Resampling procedure for weakly dependent stationary observations     |
 | [Correlated Brownian]  | [Wiki BM]                           | Simple function to generate correlated Brownian motion in multiple dim|
 | [Nel_Si_Svansson]      | [BIS whitepaper]                    | Nelson-Siegel-Svansson model for approximating the yield curve        |
 
