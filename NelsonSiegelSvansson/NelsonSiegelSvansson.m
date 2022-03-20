@@ -14,11 +14,11 @@ function out = NelsonSiegelSvansson(T, beta0, beta1, beta2, beta3, lambda0, lamb
     % Returns:
     %     n x 1 vector of interpolated/extrapolarted points coresponding to maturities inside T. Where n is the length of the vector T.
     % 
-    %     LINK TO SOURCE
+    % https://www.bis.org/publ/bppdf/bispap25l.pdf
+    
     alpha1 = (1 - exp(-T ./ lambda0)) ./ (T ./ lambda0);
     alpha2 = alpha1 - exp(-T ./ lambda0);
     alpha3 = (1 - exp(-T ./ lambda1)) ./ (T ./ lambda1) - exp(-T ./ lambda1);
 
     out = beta0 + beta1*alpha1 + beta2*alpha2 + beta3*alpha3;
 end
-
