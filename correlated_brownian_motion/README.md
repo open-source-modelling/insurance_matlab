@@ -29,7 +29,7 @@ The user is interested in generating samples from 2 Brownian motions with a corr
 ```matlab
 
 mu = [1; 0];
-VarCovar = [1.5, 0.8; 0.8, 2];
+E = [1.5, 0.8; 0.8, 2];
 sampleSize = 480;
-CorBrownian(mu, VarCovar, sampleSize)
+CorBrownian(mu, E, sampleSize)
 ```
