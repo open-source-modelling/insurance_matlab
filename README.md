@@ -33,6 +33,8 @@
 | ---------------------- | ----------------------------------- | --------------------------------------------------------------------- |
 | G2++ with piece con. vo| TBD                                 | Calibration of a G2++ model with piecwise constant volatility         |
 | Two factor Vasicek     | TBD                                 | Two factor Vasicek model for interest rate modelling                  |
+| Carter-Lee model       | TBD                                 | Simple stochastic mortality model                                     |
+
 
 
 <b> New suggestions for algorithms are welcome </b>
