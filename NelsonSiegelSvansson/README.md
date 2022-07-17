@@ -1,4 +1,8 @@
-# Nelson-Siegel-Svannson algorithm
+<h1 align="center" style="border-botom: none">
+  <b>
+    🐍 Nelson-Siegel-Svannson algorithm 🐍     
+  </b>
+</h1>
 </br>
 
 Popular algorithm for fitting a yield curve to obseved data. 
@@ -23,13 +27,13 @@ The furmula for the yield curve (Value of the yield for a maturity at time 't') 
 
 ### Parameters
 
-   - Observed yield rates (YieldVec)
-   - Maturity of each observed yield (TimeVec)
-   - Initial guess for parameters (beta0, beta1, beta2, beta3, labda0, and lambda1) 
-   - Target maturities (TimeResultVec)
+   - Observed yield rates `YieldVec`
+   - Maturity of each observed yield `TimeVec`
+   - Initial guess for parameters `beta0`, `beta1`, `beta2`, `beta3`, `labda0`, and `lambda1` 
+   - Target maturities `TimeResultVec`
 
 ### Desired output
-   - Calculated yield rates for maturities of interest (TimeResultVec)
+   - Calculated yield rates for maturities of interest `TimeResultVec`
 
 ## Getting started
 The user is interested in the projected yield for government bonds with a maturity in 1,2,5,10,25,30, and 31 years. They have data on government bonds maturing in 
