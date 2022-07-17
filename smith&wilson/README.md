@@ -1,6 +1,6 @@
 <h1 align="center" style="border-botom: none">
   <b>
-    🐍 Smith-Wilson algorithm 🐍     
+    📚 Smith-Wilson algorithm 📚     
   </b>
 </h1>
 
