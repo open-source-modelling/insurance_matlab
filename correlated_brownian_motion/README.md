@@ -1,6 +1,6 @@
 <h1 align="center" style="border-botom: none">
   <b>
-    🐍 Sampled increments from two or more correlated Brownian motions (BM) 🐍     
+    📚 Sampled increments from two or more correlated Brownian motions (BM) 📚     
   </b>
 </h1>
 
