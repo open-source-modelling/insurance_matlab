@@ -1,3 +1,11 @@
+<h1 align="center" style="border-botom: none">
+  <b>
+    🐍 Smith-Wilson algorithm 🐍     
+  </b>
+</h1>
+
+</br>
+
 Popular algorithm for interpolating and extrapolating various curves such as bond yields and risk-free rates. This implementation is based on the [Technical documentation of the Methodology to derive EIOPA's risk-free interest rate term structure](https://www.eiopa.europa.eu/sites/default/files/risk_free_interest_rate/12092019-technical_documentation.pdf) (Version published on 12/09/2019. See Section 7).
 
 ## Problem
