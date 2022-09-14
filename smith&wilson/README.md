@@ -52,4 +52,5 @@ b = SWCalibrate(r_Obs, T_Obs, ufr, alpha) % calibration vector calculation
 r_Target = SWExtrapolate(T_Target, T_Obs, b, ufr, alpha) % calculation of target yields
 r_Target % display target yields
 ```
-
+###Note:
+To extrapolate the curve, it is enough to know the additional parameters(alpha, ufr), the maturities used for calibration and the vector b*Q. If this is the case, it is not difficult to modify the function `SWExtrapolate()` to take as input Qb instead of b. An example of this is the monthly risk free rate published by turopean Insurance and Occupational Pensions Authority (https://www.eiopa.europa.eu/tools-and-data/)
