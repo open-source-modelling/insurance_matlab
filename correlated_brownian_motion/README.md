@@ -1,26 +1,28 @@
 <h1 align="center" style="border-botom: none">
-  <b>
-    📚 Sampled increments from two or more correlated Brownian motions (BM) 📚     
+  <b>📚 Sampled increments from two or more correlated Brownian motions (BM)📚
   </b>
 </h1>
 
 </br>
 
-Functions generates a matrix of increments from a multidimensional Brownian motion with a given vector of means and a Variance-Covariance matrix.
+Popular algorithm for generating a matrix of increments from a multidimensional Brownian motion (BM) with a given vector of means and a Variance-Covariance matrix.
 
 ## Problem
 
-Offten when using for example multifactor models, the model requires correlated sources of noise. A popular choice is to use a multidimensional Brownian motion.
+Offten when using multifactor models, the model requires correlated sources of noise. A popular choice is to use a multidimensional Brownian motion.
 
 ## Solution
 
-The proposed algorithm uses the fact that increments of a BM are normaly distributed as well as the fact that assuming n independent BM's whose increments are generated from a standard normal distribution (denoted N(0,1)), a derived proces Y = mu + L\*z has its increments distributed as N(mu, E) where mu is the vector of desired means and L is the square root of the desired Variance-Covariance matrix (denoted E).
+The proposed algorithm uses two propoerties of BM:
+-  Increments of a BM are normaly distributed.
+-  assuming n independent BM's whose increments are generated from a standard normal distribution (denoted N(0,1)), a derived proces 
+Y = μ + L\*z has its increments distributed as N(μ, E) where μ is the vector of means and L is the square root of the Variance-Covariance matrix (denoted E in the code).
 
 ### Inputs
 
-- Vecor of means for each BM `mu`
-- Variance-Covariance matrix whose diagonal elements describe the volatility of each BM and the off-diagonal elements describe the covariance `E`
-- Number of samples needed `sampleSize`
+- Vecor of means for each BM `mu`.
+- Variance-Covariance matrix whose diagonal elements describe the volatility of each BM and the off-diagonal elements describe the covariance `E`.
+- Number of samples needed `sampleSize`.
 
 ### Output
 
