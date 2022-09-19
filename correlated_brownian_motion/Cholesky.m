@@ -15,19 +15,19 @@ function L = Cholesky(X)
     %     6     1     0
     %    -8     5     3
 
-    n = size(X,1);
-    L = zeros(n,n);
+    n = size(X, 1);
+    L = zeros(n, n);
     
     for i = 1:n
         for j = 1:i
             sum = 0;
             for k = 1: j
-                sum = sum + L(i,k)*L(j,k);
+                sum = sum + L(i, k)*L(j, k);
             end
             if (i==j)
-                L(i,j) = sqrt(X(i,i)-sum);
+                L(i, j) = sqrt(X(i, i)-sum);
             else
-                L(i,j) = 1/L(j,j) * (X(i,j)-sum);
+                L(i, j) = 1/L(j, j) * (X(i, j)-sum);
             end
         end
     end
