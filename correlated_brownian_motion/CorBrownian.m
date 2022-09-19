@@ -25,12 +25,12 @@ function Y = CorBrownian(mu,E, sampleSize)
     %    -0.6874   -0.8918
     %     0.2343    1.6925
 
-    dim = size(E,1);                    % Guess the number of Brownian motions (dimension) from the size of the Var-Covar matrix
-    Z = normrnd(0,1,[dim, sampleSize]); % Generate independent increments of a simpleSize dimensional Brownian motion
+    dim = size(E, 1);                    % Guess the number of Brownian motions (dimension) from the size of the Var-Covar matrix
+    Z = normrnd(0, 1, [dim, sampleSize]); % Generate independent increments of a simpleSize dimensional Brownian motion
     Y = zeros(sampleSize, dim);         % Predefine the final output
     L = Cholesky(E);                    % Calculate the square root of the Var-Covar matrix
 
     for iSample = 1: sampleSize % For each sample, calculate mu + L*Z
-        Y(iSample,:) = mu +  L * Z(:,iSample);     
+        Y(iSample, :) = mu +  L * Z(:, iSample);     
     end
 end % function
