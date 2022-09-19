@@ -27,9 +27,9 @@ function sample = StationaryBootstrap(data, m, sampleLength)
 
     accept = 1/m;
     pd1 = makedist('Uniform');   
-    lenData = size(data,1);
-    sampleIndex = randperm(lenData,1);
-    sample = zeros(sampleLength,1);
+    lenData = size(data, 1);
+    sampleIndex = randperm(lenData, 1);
+    sample = zeros(sampleLength, 1);
     for iSample = 1:sampleLength
         if random(pd1)>=accept % Block continues because step is accepted
             sampleIndex = sampleIndex+1;
@@ -37,7 +37,7 @@ function sample = StationaryBootstrap(data, m, sampleLength)
                 sampleIndex = 1;
             end
         else % Step is rejected, therefore a new block is started 
-            sampleIndex = randperm(lenData,1);
+            sampleIndex = randperm(lenData, 1);
         end
         sample(iSample) = data(sampleIndex); % Add the selected datapoint to the sample
     end
