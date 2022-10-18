@@ -4,22 +4,22 @@ function sample = StationaryBootstrap(data, m, sampleLength)
 % from 1994 Politis & Romano.
 %    sample = StationaryBootstrap(data, m, sampleLength)
 %
-%% Input: 
+% Input: 
 %    data =         n x 1 vector containing the time-series that will be
 %                       bootstrapped.
 %    m =            1 x 1 parameter m of the stationary bootstrap algorithm indicating the
 %                        average length of blocks in the final sample.
 %    sampleLength = 1 x 1 integer setting the lenght of the output sample. 
 %
-%% Output:
+% Output:
 %    sample =       sampleLength x 1 vector containing the bootstraped sample 
 %
-%% Example:
+% Example:
 %    >> data = [1;2;3;4;5;6;7;8;9;10]
 %    >> StationaryBootstrap(data,4,9)
 %    ans = [9; 10; 1; 2; 5; 6; 5; 6; 7]
 %
-%% Original source:
+% Original source:
 %     Dimitris N. Politis & Joseph P. Romano (1994) The Stationary Bootstrap, Journal of the American Statistical 
 %     Association, 89:428, 1303-1313, DOI: 10.1080/01621459.1994.10476870
 %
