@@ -18,12 +18,12 @@ This implementation takes as input the available market information, parameters 
 
 ### Market information input
 
- - Observed yields of the zero-coupon bonds (ZCB)
+ - Observed yields of the Zero-Coupon Bonds (ZCB)
  - Maturity of the observed ZCB
 
 ### SW Parameters
- - Ultimate froward rate ufr represents the rate to which the rate curve will converge as time increases.
- - Convergence speed parameter α controls the speed at which the curve converges towards the ufr parameter from the last liquid point (last data point available in the market information input)
+ - Ultimate froward rate `ufr` represents the rate to which the rate curve will converge as time increases.
+ - Convergence speed parameter `α` controls the speed at which the curve converges towards the `ufr` parameter from the last liquid point (last data point available in the market information input)
 
 ### Desired output
  
@@ -53,4 +53,4 @@ r_Target = SWExtrapolate(T_Target, T_Obs, b, ufr, alpha) % calculation of target
 r_Target % display target yields
 ```
 ###Note:
-To extrapolate the curve, it is enough to know the additional parameters(alpha, ufr), the maturities used for calibration and the vector b*Q. If this is the case, it is not difficult to modify the function `SWExtrapolate()` to take as input Qb instead of b. An example of this is the monthly risk free rate published by turopean Insurance and Occupational Pensions Authority (https://www.eiopa.europa.eu/tools-and-data/)
+To extrapolate the curve, it is enough to know the additional parameters (`alpha` and `ufr`), the maturities used for calibration and the vector b*Q. If this is the case, it is not difficult to modify the function `SWExtrapolate()` to take as input Qb instead of b. An example of this is the monthly risk free rate published by the European Insurance and Occupational Pensions Authority (https://www.eiopa.europa.eu/tools-and-data/).
