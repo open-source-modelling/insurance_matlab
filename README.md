@@ -35,13 +35,6 @@
 [Nel Si Svansson]: https://github.com/open-source-modelling/insurance_matlab/tree/main/nelson_siegel_svansson
 [BIS whitepaper]: https://www.bis.org/publ/bppdf/bispap25l.pdf
 
-## Algorithms planned
-
-| Algorithm              | Source                              | Description                                                           |
-| ---------------------- | ----------------------------------- | --------------------------------------------------------------------- |
-| G2++ with piece con. vo| TBD                                 | Calibration of a G2++ model with piecewise constant volatility         |
-| Two factor Vasicek     | TBD                                 | Two factor Vasicek model for interest rate modelling                  |
-| Carter-Lee model       | TBD                                 | Simple stochastic mortality model                                     |
 
 <b> New suggestions for algorithms are welcome. </b>
 
